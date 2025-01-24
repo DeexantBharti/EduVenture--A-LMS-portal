@@ -44,7 +44,7 @@ import profile_img3 from './profile_img3.png'
 import lesson_icon from './lesson_icon.svg'
 
 
-export const assets = {
+ const assets = {
     logo,
     search_icon,
     sketch,
@@ -758,3 +758,4 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/WbV3zRgpw_E/maxresdefault.jpg"
     }
 ]
+export default {dummyCourses, dummyStudentEnrolled, dummyDashboardData, dummyTestimonial,assets}
